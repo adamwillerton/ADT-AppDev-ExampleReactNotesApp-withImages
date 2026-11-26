@@ -1,7 +1,10 @@
-# Example Notes web app (No installs, Hosting‑only) 
+# Example Notes web app WITH IMAGES (No installs, Hosting‑only) 
 
+This repo is an update on the Example React Notes App used previously in the ADT App Dev module.
+The addition of some IMAGES to the UI here allows lazy loading to be investigated.
+
+-------------------------------------------------------
 This project uses React + Vibe.
-
 It is a simple notes app with CRUD operations.  All data is stored in the browser (localStorage), there is no back-end.
 
 ## How to run this project (no installs)
