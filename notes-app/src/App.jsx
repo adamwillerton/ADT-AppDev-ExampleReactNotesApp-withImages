@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import note from './assets/note.png';
 
 // Simple localStorage-backed repository
 const KEY = 'notes.v1';
@@ -68,6 +69,10 @@ export default function App() {
         ))}
         {filtered.length === 0 && <li style={{ color: '#666' }}>No notes to show.</li>}
       </ul>
+
+      <img src={note} alt="" />
+      <img src={note} alt="" />
+      <img src={note} alt="" />
     </main>
   );
 }
